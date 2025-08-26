@@ -65,7 +65,7 @@ section{
      display: flex;
      align-items: center;
      background-color:rgba(95, 158, 160, 0.555);
-     background:url(images/pic.jpg);
+     background: url(images/pic.jpg);
      background-size: cover;
      background-position: center;
      background-attachment:fixed ;
@@ -168,8 +168,13 @@ font-size: 500;
 .info{
      text-align: center;
      white-space: normal;         /* يسمح بالنزول لسطر جديد */
-  word-break: break-word;      /* يكسر النص الطويل */
-     
+     word-break: break-word;      /* يكسر النص الطويل */
+     text-decoration: none;
+}
+
+.info a{
+     text-decoration: none;
+     color: #000;
 }
 
 .info h3{
@@ -259,3 +264,4 @@ font-size: 500;
     font-size: 1.2em;
   }
 }
+
